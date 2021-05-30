@@ -9,9 +9,10 @@ Paso 2.
 - Cambiar el modelo para hacer la predicción de forma general y no por listings
 - Mirar los datos de Mayo
 - Crear una visualizacion de cuantos listings aparecen en el dataset
-- Hacer otras predicciones usando un período especifico: desde março 2020 hasta ahora usando XGBoost
+- Hacer otras predicciones usando un período especifico: desde março 2020 hasta ahora usando XGBoost 
+- ~~Hacer predicciones de forma general con todo el dataset, usando XGBoost~~ - Done!
 - Hacer lo mismo de la linea acima, pero con otro modelo
-- Hacer predicciones con todo el dataset, pero usando otro modelo
+- Hacer predicciones de forma general con todo el dataset, pero usando otro modelo
 - Agrupar listings que están siempre ocupado o tiene alta ocupación y mirar se hay un padron
 - La predicción futura será de los próximos 60 dias (avaibility_60)
 
