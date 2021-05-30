@@ -14,7 +14,7 @@ Paso 2.
 - Hacer lo mismo de la linea acima, pero con otro modelo
 - Hacer predicciones de forma general con todo el dataset, pero usando otro modelo
 - Agrupar listings que están siempre ocupado o tiene alta ocupación y mirar se hay un padron
-- La predicción futura será de los próximos 60 dias (avaibility_60)
+- ~~La predicción futura será de los próximos 60 dias (avaibility_60)~~ - Done!
 
 Pensar el modelo para predecir la ocupación en Airbnb en Barcelona el verano de 2021. Modelo time series? Transformar los datasets para introducir en el modelo.
 
