@@ -1,11 +1,11 @@
 # capstoneProjectUB
 
-Paso 1.Adicionar los datos de covid al dataset completo;
+Paso 1.~~Adicionar los datos de covid al dataset completo~~ - Done!
 
 Paso 2. 
 - Crear visualizaciones por barrio 
 - Crear visualizaciones por lat/log a ver se hay más listings sendo ocupados fuera del centro
-- comparar los veranos (Julio a Agosto) 2019, 2020 - apredicir 2021
+- comparar los veranos (Julio a Agosto) 2019, 2020 - a predicir 2021
 - Cambiar el modelo para hacer la predicción de forma general y no por listings
 - Mirar los datos de Mayo
 - Crear una visualizacion de cuantos listings aparecen en el dataset
