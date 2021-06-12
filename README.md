@@ -21,7 +21,7 @@ Pensar el modelo para predecir la ocupación en Airbnb en Barcelona el verano de
 Siguientes pasos: probar el modelo en datos de antes del covid. Visualización de datos. Comparar datos de antes y después de la pandemia. Comparar con ocupación en verano 2020. Ver si afecta la estacionalidad. Sacar conclusiones. Tal vez usar datos de vuelos para alguna visualización o comparación con la ocupación (si los vuelos han bajado con respecto a antes del covid en la misma proporción que ha baja la ocupación...).
 
 
-Morts per covid mensuals a catalunya:
+Morts per covid mensuals a catalunya (https://dadescovid.cat/diari):
 
 - 21/5: 242
 - 21/4: 543
@@ -39,4 +39,3 @@ Morts per covid mensuals a catalunya:
 - 20/4: 7424
 - 20/3: 3697
 
-Total: 22091
