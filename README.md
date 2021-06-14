@@ -1,26 +1,41 @@
 # capstoneProjectUB
 
-Paso 1.~~Adicionar los datos de covid al dataset completo~~ - Done!
+Organización del repositorio:
 
-Paso 2. 
-- Crear visualizaciones por barrio 
-- Crear visualizaciones por lat/log a ver se hay más listings sendo ocupados fuera del centro
-- comparar los veranos (Julio a Agosto) 2019, 2020 - a predicir 2021
-- Cambiar el modelo para hacer la predicción de forma general y no por listings
-- Mirar los datos de Mayo
-- Crear una visualizacion de cuantos listings aparecen en el dataset
-- ~~Hacer otras predicciones usando un período especifico: desde março 2020 hasta ahora usando XGBoost~~ - Done! 
-- ~~Hacer predicciones de forma general con todo el dataset, usando XGBoost~~ - Done!
-- Hacer lo mismo de la linea acima, pero con otro modelo
-- Hacer predicciones de forma general con todo el dataset, pero usando otro modelo
-- Agrupar listings que están siempre ocupado o tiene alta ocupación y mirar se hay un padron
-- ~~La predicción futura será de los próximos 60 dias (avaibility_60)~~ - Done!
+1. Carpeta DATA
+-Backup: datos en bruto extraídos de http://insideairbnb.com/get-the-data.html + datos anteriores facilitados por los administradores de la página. Añadidos datos de casos de COVID desde marzo de 2020 (Cataluña).
+-Processed: dataset procesado, resultado de los procesos de Cleaning y Transformation de los notebooks comentados a continuación.
 
-Pensar el modelo para predecir la ocupación en Airbnb en Barcelona el verano de 2021. Modelo time series? Transformar los datasets para introducir en el modelo.
+2. Carpeta SRC
 
-Siguientes pasos: probar el modelo en datos de antes del covid. Visualización de datos. Comparar datos de antes y después de la pandemia. Comparar con ocupación en verano 2020. Ver si afecta la estacionalidad. Sacar conclusiones. Tal vez usar datos de vuelos para alguna visualización o comparación con la ocupación (si los vuelos han bajado con respecto a antes del covid en la misma proporción que ha baja la ocupación...).
+Incluye todo el código que hemos utilizado. Cada notebook incluye anotaciones explicativas del proceso seguido.
+
+2.1. Carpeta Cleaninung
+
+ - Agregación de los datos
+ - Eliminación de los missing values
+ - Cleaning del dataset
+
+2.2. Carpeta Transform
+ - Creación de nuevas features en el dataset
+
+2.3. Carpeta Train
+
+Modelos utilziados:
+
+ - Prueba con XGBoost sin hyperparametros
+ - Prueba con XGBoost con hyperparametros (resultados no muy buenos)
+ - Prueba con RNN (Pytorch) sin hyperparametros
+ - Prueba con RNN (Pytorch) con hyperparametros (mejores resultados)
+
+4. Carpeta EDA (exploratory data anaylisis)
+
+- Se incluyen algunas visualizaciones de los datos. 
 
 
+
+
+(A eliminar antes de la entrga
 Morts per covid mensuals a catalunya (https://dadescovid.cat/diari):
 
 - 21/5: 242
@@ -38,4 +53,6 @@ Morts per covid mensuals a catalunya (https://dadescovid.cat/diari):
 - 20/5: 1282
 - 20/4: 7424
 - 20/3: 3697
+
+)
 
