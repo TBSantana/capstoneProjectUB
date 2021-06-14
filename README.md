@@ -1,5 +1,7 @@
 # capstoneProjectUB
 
+El objetivo del Proyecto es intentar predecir la ocupación de los Airbnb en la ciudad Barcelona en el verano de 2021, utilizando de datos de ocupación de Airbnb en Barcelona desde enero de 2019 hasta abril de 2021 y datos de la evolución de la COVID-19 en Catalauña. 
+
 Organización del repositorio:
 
 1. Carpeta DATA
@@ -9,6 +11,7 @@ Organización del repositorio:
 2. Carpeta SRC
 
 Incluye todo el código que hemos utilizado. Cada notebook incluye anotaciones explicativas del proceso seguido.
+Trabajo sobre los datos para 
 
 2.1. Carpeta Cleaninung
 
@@ -16,7 +19,7 @@ Incluye todo el código que hemos utilizado. Cada notebook incluye anotaciones e
  - Eliminación de los missing values
  - Cleaning del dataset
 
-2.2. Carpeta Transform
+2.2. Carpeta Transform (data engineering)
  - Creación de nuevas features en el dataset
 
 2.3. Carpeta Train
@@ -31,7 +34,7 @@ Modelos utilziados:
 4. Carpeta EDA (exploratory data anaylisis)
 
 - Se incluyen algunas visualizaciones de los datos. 
-
+En la presentación se incluirán más visualizaciones explicativas y otros análisis de los datos y los resultados obtenidos. 
 
 
 
