@@ -41,7 +41,11 @@ En la presentación se incluirán más visualizaciones explicativas y otros aná
 
 
 Autores:
+
 Míriam Potau
+
 Thayanne Santana
+
 Sara Pereira
+
 Pol Paniagua
