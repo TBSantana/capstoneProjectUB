@@ -30,9 +30,9 @@ Trabajo sobre los datos para
 Modelos utilziados:
 
  + Prueba con XGBoost sin hyperparametros
- + Prueba con XGBoost con hyperparametros (resultados no muy buenos)
+ + [Prueba con XGBoost con hyperparametros](src/train/XGBoost_tuned.ipynb) (resultados no muy buenos)
  + Prueba con RNN (Pytorch) sin hyperparametros
- + Prueba con RNN (Pytorch) con hyperparametros (mejores resultados)
+ + [Prueba con RNN (Pytorch) con hyperparametros](src/train/RNN_LSTM_tuned.ipynb) (mejores resultados)
 
 ## 2.4. Carpeta EDA (exploratory data anaylisis)
 
