@@ -40,4 +40,8 @@ Modelos utilziados:
 En la presentación se incluirán más visualizaciones explicativas y otros análisis de los datos y los resultados obtenidos. 
 
 
-
+Autores:
+Míriam Potau
+Thayanne Santana
+Sara Pereira
+Pol Paniagua
