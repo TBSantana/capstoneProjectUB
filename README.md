@@ -34,7 +34,7 @@ Modelos utilziados:
  + Prueba con RNN (Pytorch) sin hyperparametros
  + [Prueba con RNN (Pytorch) con hyperparametros](src/train/RNN_LSTM_tuned.ipynb) (mejores resultados)
 
-### 2.4. Carpeta EDA (exploratory data anaylisis)
+### 2.4. Carpeta EDA (exploratory data analysis)
 
 - Se incluyen algunas visualizaciones de los datos, de las que extraer conclusiones.
 En la presentación se incluirán más visualizaciones explicativas y otros análisis de los datos y los resultados obtenidos. 
