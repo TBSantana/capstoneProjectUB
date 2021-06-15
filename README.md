@@ -5,7 +5,9 @@ El objetivo del Proyecto es intentar predecir la ocupación de los Airbnb en la 
 Organización del repositorio:
 
 1. Carpeta DATA
+
 -Backup: datos en bruto extraídos de http://insideairbnb.com/get-the-data.html + datos anteriores facilitados por los administradores de la página. Añadidos datos de casos de COVID desde marzo de 2020 (Cataluña).
+
 -Processed: dataset procesado, resultado de los procesos de Cleaning y Transformation de los notebooks comentados a continuación. El dataset final usado en los modelos es listings_transformed.csv
 Se incluye también un archivo geojson utilizado para visualizaciones, y el Data Dictionary de los datos de Airbnb.
 
@@ -38,25 +40,4 @@ Modelos utilziados:
 En la presentación se incluirán más visualizaciones explicativas y otros análisis de los datos y los resultados obtenidos. 
 
 
-
-(A eliminar antes de la entrga
-Morts per covid mensuals a catalunya (https://dadescovid.cat/diari):
-
-- 21/5: 242
-- 21/4: 543
-- 21/3: 603
-- 21/2: 1096
-- 21/1: 2164
-- 20/12: 1264
-- 20/11: 1828
-- 20/10: 914
-- 20/9: 364
-- 20/8: 296
-- 20/7: 179
-- 20/6: 195
-- 20/5: 1282
-- 20/4: 7424
-- 20/3: 3697
-
-)
 
