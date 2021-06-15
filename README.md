@@ -14,7 +14,7 @@ Se incluye también un archivo geojson utilizado para visualizaciones, y el Data
 Incluye todo el código que hemos utilizado. Cada notebook incluye anotaciones explicativas del proceso seguido.
 Trabajo sobre los datos para 
 
-2.1. Carpeta Cleaninung
+2.1. Carpeta Cleaning
 
  - Agregación de los datos
  - Eliminación de los missing values
